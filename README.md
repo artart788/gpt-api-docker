@@ -1,3 +1,8 @@
+## This is a HACK do NOT use this for anything IMPORTANT
+100% OpenAI does NOT like this. this WILL get patched (likely soon). i wrote this to be maybe used for a hobby project and proof of work.
+
+as long as you have heard the big alarm bells you may continue.
+
 # GPT-API-Docker
 
 This repo is built with [waylaidwanderer's awesome node-chatgpt-api wrapper](https://github.com/waylaidwanderer/node-chatgpt-api) and compiles into a 100mb production ready docker
