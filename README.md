@@ -58,10 +58,19 @@ To deploy make sure to set your secret with
 
 If you have any issues you probably need to make sure SSL is enabled and [your ports are correct](https://fly.io/docs/reference/configuration/)
 
+## How to Query GPT-3
+Assuming you've set everything up correctly, send a post request to your hostname at the url /conversation (e.g. localhost:3000/conversation).
+
+Here is an example query.
+
+	curl {hostname:port}/conversation -X POST -H "Content-Type: application/json" -d "{\"message\": \"what is the square root of 100?\"}"
+
+If you want more information check out [the wrapper repo](https://github.com/waylaidwanderer)
+
 ## Built With
 
-  - [MIT License](https://opensource.org/licenses/MIT) - The License
-    for the Code of Conduct
+  - [Fastly](https://www.fastly.com/) - The server being used. 
+  - [MIT License](https://opensource.org/licenses/MIT) - The license being used.
 
 ## Contributing
 
