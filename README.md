@@ -4,6 +4,9 @@ this is repo builds a Docker image ~100mb that hosts a fastify server to handle 
 # usage
 
 `git https://github.com/queercat/gpt-api-docker`
+
 `cd gpt-api-docker`
+
 `Docker build -t gpt .`
+
 `Docker run -e GPT_API_TOKEN={YOUR_API_TOKEN} -p 3000:3000 gpt`
