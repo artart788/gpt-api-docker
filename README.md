@@ -10,3 +10,5 @@ this is repo builds a Docker image ~100mb that hosts a fastify server to handle 
 `Docker build -t gpt .`
 
 `Docker run -e GPT_API_TOKEN={YOUR_API_TOKEN} -p 3000:3000 gpt`
+
+![example API query over localhost](https://user-images.githubusercontent.com/22136781/216763979-c463ec6c-329a-4cc1-998d-f28c84fdd305.gif)
