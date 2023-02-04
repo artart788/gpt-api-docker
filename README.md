@@ -14,6 +14,7 @@ for notes on deploying the project on a live system.
 - [npm](https://www.npmjs.com/)
 - [Node.js](https://nodejs.org/)
 - [Docker](https://www.docker.com/)
+- [GPT_API_KEY](https://platform.openai.com/account/api-keys)
 
 ### Installing
 
@@ -38,8 +39,24 @@ Example:
 
 ## Deployment
 
-
 To deploy with fly.io you can just use fly launch and edit the fly.toml such that the ports are correct, it's super easy (and what I do).
+
+Clone everything.
+
+	git clone https://github.com/queercat/gpt-api-docker
+	cd gpt-api-docker
+
+Setup Fly.
+
+	fly launch
+	vim fly.toml
+
+To deploy make sure to set your secret with
+	
+	fly secrets set GPT_API_KEY={YOUR_API_KEY_HERE}
+	fly deploy
+
+If you have any issues you probably need to make sure SSL is enabled and [your ports are correct](https://fly.io/docs/reference/configuration/)
 
 ## Built With
 
