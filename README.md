@@ -5,6 +5,7 @@ this is repo builds a Docker image ~100mb that hosts a fastify server to handle 
 
 # how to get an API token
 [go here](https://platform.openai.com/account/api-keys)
+
 # usage
 
 `git https://github.com/queercat/gpt-api-docker`
@@ -13,4 +14,4 @@ this is repo builds a Docker image ~100mb that hosts a fastify server to handle 
 
 `Docker build -t gpt .`
 
-`Docker run -e GPT_API_KEY={YOUR_API_TOKEN} -p 3000:3000 gpt`
+`Docker run -e GPT_API_KEY={YOUR_API_KEY} -p 3000:3000 gpt`
