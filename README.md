@@ -4,7 +4,7 @@
 as long as you have heard the big red alarm bells you may continue.
 
 ### Boosting Myself
-if you happen to be in the market for an engineer, please peep my [resume](https://queercat.github.io/blog/resume). 💖
+if you happen to be in the market for an engineer, please peep my [resume](https://may-blog.fly.dev/resume). 💖
 
 # GPT-API-Docker
 
@@ -47,7 +47,7 @@ Example:
 
 ## Deployment
 
-To deploy with fly.io you can just use fly launch and edit the fly.toml such that the ports are correct, it's super easy (and what I do).
+To deploy with fly.io you can just use fly launch and edit the fly.toml such that the ports section reflects the server config (default: 3000).
 
 Clone everything.
 
