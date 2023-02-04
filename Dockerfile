@@ -6,14 +6,15 @@ RUN apk add git
 RUN apk add nodejs
 RUN apk add npm
 
-# clone the repo.
-RUN git clone https://github.com/waylaidwanderer/node-chatgpt-api
+# clone the repo. (change this to main repo once docker fix is pushed).
+RUN git clone https://github.com/queercat/node-chatgpt-api
 
 # go into directory and install node deps.
 WORKDIR node-chatgpt-api
+RUN git checkout fix-fastify-for-docker
 RUN npm install
 
-RUN mv settings.example.js settings.js
+COPY ./settings.js settings.js
 
 EXPOSE 3000
 
