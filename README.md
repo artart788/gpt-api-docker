@@ -1,7 +1,10 @@
 ## This is a HACK do NOT use this for anything IMPORTANT
 100% OpenAI does NOT like this. this WILL get patched (likely soon). i wrote this to be maybe used for a hobby project and proof of work.
 
-as long as you have heard the big alarm bells you may continue.
+as long as you have heard the big red alarm bells you may continue.
+
+### Boosting Myself
+if you happen to be in the market for an engineer, please peep my [resume](https://queercat.github.io/blog/resume). 💖
 
 # GPT-API-Docker
 
