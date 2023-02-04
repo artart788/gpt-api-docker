@@ -11,15 +11,11 @@ for notes on deploying the project on a live system.
 
 ### Prerequisites
 
-Requirements for the software and other tools to build, test and push 
 - [npm](https://www.npmjs.com/)
 - [Node.js](https://nodejs.org/)
 - [Docker](https://www.docker.com/)
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development
-environment running
 
 Clone the repo
 
@@ -38,6 +34,7 @@ Enjoy!
 
 Example:
 
+![query example](https://user-images.githubusercontent.com/22136781/216766868-05b9c6fc-2c60-4fb3-9196-5ab45c7123a6.gif)
 
 ## Deployment
 
@@ -54,9 +51,9 @@ To deploy with fly.io you can just use fly launch and edit the fly.toml such tha
 Feel free to just throw up a pull request or issue and I'll try to get to it as quickly as I can when I see it.
 
 ## Acknowledgments
-	- **waylaidwanderer** - *Creator of the API wrapper, and discoverer of the model* - [waylaidwanderer](https://github.com/waylaidwanderer) 
-	- **Billie Thompson** - *Provided README Template* - [PurpleBooth](https://github.com/PurpleBooth)
+- **waylaidwanderer** - *Creator of the API wrapper, and discoverer of the model* - [waylaidwanderer](https://github.com/waylaidwanderer) 
+- **Billie Thompson** - *Provided README Template* - [PurpleBooth](https://github.com/PurpleBooth)
 
 ## License
 
-This project is licensed under the [Open MIT License](LICENSE.md) do with it what you want!.
+This project is licensed under the [Open MIT License](LICENSE) do with it what you want!.
